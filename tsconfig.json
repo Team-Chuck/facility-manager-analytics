@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@app/*": ["src/app/*"],
+      "@store/*": ["src/app/store/*"],
+      "@images/*": ["images/*"],
+      "@public/*": ["public/*"]
+    },
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"]
+}
